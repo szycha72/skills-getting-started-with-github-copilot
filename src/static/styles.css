@@ -88,6 +88,27 @@ section h3 {
   font-size: 0.9em;
 }
 
+.participant-email {
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.unregister-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.unregister-btn:hover,
+.unregister-btn:focus {
+  background-color: rgba(198, 40, 40, 0.08);
+  outline: none;
+}
+
 .activity-card .participants-list-header {
   font-weight: bold;
   margin-top: 10px;
